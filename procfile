@@ -1,1 +1,1 @@
-web: deno run --allow-net jahaajapi.ts
+web: deno run --allow-net=:${PORT} --cached-only jahaajserver.ts --port=${PORT}
